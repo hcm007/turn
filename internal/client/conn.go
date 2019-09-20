@@ -486,7 +486,7 @@ func (c *UDPConn) refreshPermissions() {
 		return
 	}
 	if err := c.createPermissions(addrs...); err != nil {
-		c.log.Errorf("fail to refresh permissions: %s", err.Error())
+		//c.log.Errorf("fail to refresh permissions: %s", err.Error())
 		return
 	}
 	c.log.Debug("refresh permissions successful")
