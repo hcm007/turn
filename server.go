@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/hcm007/turn/internal/allocation"
+	"github.com/hcm007/turn/internal/proto"
 	"github.com/pion/logging"
 	"github.com/pion/stun"
 	"github.com/pion/transport/vnet"
-	"github.com/pion/turn/internal/allocation"
-	"github.com/pion/turn/internal/proto"
 	"github.com/pkg/errors"
 )
 

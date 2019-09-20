@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/hcm007/turn"
 	"github.com/pion/logging"
-	"github.com/pion/turn"
 )
 
 func main() {

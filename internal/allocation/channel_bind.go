@@ -4,8 +4,8 @@ import (
 	"net"
 	"time"
 
+	"github.com/hcm007/turn/internal/proto"
 	"github.com/pion/logging"
-	"github.com/pion/turn/internal/proto"
 )
 
 // ChannelBind represents a TURN Channel

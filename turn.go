@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/hcm007/turn/internal/allocation"
+	"github.com/hcm007/turn/internal/ipnet"
+	"github.com/hcm007/turn/internal/proto"
 	"github.com/pion/stun"
-	"github.com/pion/turn/internal/allocation"
-	"github.com/pion/turn/internal/ipnet"
-	"github.com/pion/turn/internal/proto"
 	"github.com/pkg/errors"
 )
 

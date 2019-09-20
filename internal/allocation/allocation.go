@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/hcm007/turn/internal/ipnet"
+	"github.com/hcm007/turn/internal/proto"
 	"github.com/pion/logging"
 	"github.com/pion/stun"
-	"github.com/pion/turn/internal/ipnet"
-	"github.com/pion/turn/internal/proto"
 	"github.com/pkg/errors"
 )
 

@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/hcm007/turn/internal/client"
+	"github.com/hcm007/turn/internal/proto"
 	"github.com/pion/logging"
 	"github.com/pion/stun"
 	"github.com/pion/transport/vnet"
-	"github.com/pion/turn/internal/client"
-	"github.com/pion/turn/internal/proto"
 	"github.com/pkg/errors"
 )
 
